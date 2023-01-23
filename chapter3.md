@@ -15,5 +15,5 @@
     6. spv 是本地计算，H() 是向全结点请求，轻结点计算全节点发送的，相邻结点的哈希值，即可以证明了。
     7. proof of membership，proof of inclusion。也就是说，验证算法的复杂度。merkle proof 是 O(log(n))。如果要证明 proof of non-membership，那么就很难证明了，是 O(n)
     8. 如果，没有对叶结点对排序的前提的话，那么就一定是 O(n) 的顺序，如果排序好的，叫 sorted merkle tree，但是比特币中不要求排序，因为比特币中不太有 proof of non-membership 的情况
-
+    9. 只要无环数据结构，都可以用哈希指针来代替普通指针。
 
